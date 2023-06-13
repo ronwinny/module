@@ -1,0 +1,61 @@
+@media screen and (min-width: 576px) and (max-width: 991px)
+{
+    .hero-details
+{
+    height:50%;
+}
+.hero-container
+{ 
+    background-image:repeating-linear-gradient(90deg,#fff 0% 20%,#D6D4D4 20% 20.1%); 
+}
+
+.hero-details::before
+{
+    content:"";
+    width:calc(20em + 8vw);
+    height:calc(20em + 8vw);
+}
+.module
+{
+    font-size:calc(4rem + 1vw);  
+}
+.module-sub
+{
+    font-size:calc(.8rem + .8vw);
+}
+.module-sub
+{
+    font-size:calc(1rem + 1vw);
+}
+.arrow
+{
+    font-size:2.1rem;
+}
+#aboutus>.procode
+{
+    padding:12% 16%;
+    
+}
+.procode-sub
+{
+    font-size:calc(1.2rem + 1vw);
+    word-spacing:.8rem;
+    line-height:1.4
+}
+.languages 
+{
+    font-size:calc(3rem + 1vw);
+
+}
+.language-txt>p
+    {
+    font-size:calc(1rem + 1.4vw);
+    }
+    @media screen and (min-width: 768px) and (max-width: 991px)
+{
+    .language-txt>p
+    {
+    font-size:calc(1rem + 1vw);
+    }
+}
+}
